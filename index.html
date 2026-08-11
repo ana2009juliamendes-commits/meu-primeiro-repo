@@ -1,46 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <title>Ana Julia | Desenvolvedora Web</title>
 
-    <meta name="description"
-        content="Portfólio de Ana Julia - Estudante de Desenvolvimento Web">
-
-    <title>Ana Julia | Meu Portfólio</title>
+    <meta
+        name="description"
+        content="Portfólio de Ana Julia, estudante de Desenvolvimento Web."
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- FUNDO DECORATIVO -->
-    <div class="background-glow glow-1"></div>
-    <div class="background-glow glow-2"></div>
-
-    <!-- MENU -->
+    <!-- HEADER -->
     <header class="header">
+        <div class="container nav">
 
-        <div class="logo">
-            <strong>Ana Julia<span>.</span></strong>
-            <small>Meu Portfólio</small>
+            <a href="#inicio" class="logo">
+                <span>Ana Julia.</span>
+                <small>Desenvolvedora Web</small>
+            </a>
+
+            <nav>
+                <a href="#sobre">Sobre</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <a href="#contato" class="nav-button">
+                Vamos conversar
+            </a>
+
         </div>
-
-        <nav class="menu">
-            <a href="#inicio" class="active">Início</a>
-            <a href="#sobre">Sobre mim</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#contato">Contato</a>
-        </nav>
-
-        <a href="#contato" class="btn-cv">
-            ↓ &nbsp; Baixar CV
-        </a>
-
     </header>
 
 
@@ -48,159 +44,145 @@
     <main>
 
         <section class="hero" id="inicio">
+            <div class="container hero-content">
 
-            <div class="hero-text">
+                <div class="hero-text">
 
-                <p class="hello">
-                    Olá! 👋
-                </p>
+                    <div class="status">
+                        <span></span>
+                        Disponível para oportunidades
+                    </div>
 
-                <h1>
-                    Meu nome é
-                    <span>Ana Julia.</span>
-                </h1>
+                    <p class="eyebrow">Olá, eu sou a</p>
 
-                <h2>
-                    Estudante de Desenvolvimento Web
-                    apaixonada por
-                    <strong>criar experiências incríveis.</strong>
-                </h2>
+                    <h1>
+                        Ana Julia
+                        <span>.</span>
+                    </h1>
 
-                <p class="description">
-                    Estou aprendendo e evoluindo todos os dias
-                    para me tornar uma desenvolvedora completa
-                    e construir soluções que façam a diferença.
-                </p>
+                    <h2>
+                        Desenvolvedora Web
+                        <br>
+                        em formação.
+                    </h2>
 
-                <div class="hero-buttons">
+                    <p class="hero-description">
+                        Estou construindo minha jornada no desenvolvimento web,
+                        transformando ideias em experiências digitais modernas,
+                        funcionais e visualmente marcantes.
+                    </p>
 
-                    <a href="#projetos" class="btn-primary">
-                        🚀 Ver Projetos
-                    </a>
+                    <div class="hero-buttons">
+                        <a href="#projetos" class="button primary">
+                            Ver meus projetos
+                            <span>↗</span>
+                        </a>
 
-                    <a href="#contato" class="btn-secondary">
-                        ✉ Entrar em Contato
-                    </a>
+                        <a href="#contato" class="button secondary">
+                            Entrar em contato
+                        </a>
+                    </div>
 
-                </div>
-
-                <div class="technologies">
-
-                    <div class="tech">
+                    <div class="hero-tech">
                         <span>HTML</span>
-                    </div>
-
-                    <div class="tech">
                         <span>CSS</span>
+                        <span>JavaScript</span>
                     </div>
 
-                    <div class="tech js">
-                        <span>JS</span>
+                </div>
+
+
+                <div class="hero-image">
+
+                    <div class="image-glow"></div>
+
+                    <div class="photo-card">
+
+                        <img
+                            src="ee482ead-4602-4b2a-9e00-32a51fa433e0.jpeg"
+                            alt="Ana Julia"
+                        >
+
+                        <div class="dev-badge">
+                            <strong>&lt;/&gt;</strong>
+                            <span>FUTURA</span>
+                            <b>DEV</b>
+                        </div>
+
                     </div>
 
                 </div>
 
             </div>
-
-
-            <!-- FOTO -->
-            <div class="hero-image">
-
-                <div class="image-glow"></div>
-
-                <img
-                    src="ee482ead-4602-4b2a-9e00-32a51fa433e0.jpeg"
-                    alt="Foto de Ana Julia">
-
-                <div class="dev-badge">
-                    <div class="code-icon">
-                        &lt;/&gt;
-                    </div>
-
-                    <span>FUTURA<br>DEV</span>
-                </div>
-
-            </div>
-
         </section>
 
 
         <!-- SOBRE -->
-        <section class="section about" id="sobre">
+        <section class="section" id="sobre">
 
-            <div class="about-main">
+            <div class="container">
 
-                <div class="section-title">
-
-                    <div class="title-icon">
-                        👤
-                    </div>
-
-                    <h2>Sobre mim</h2>
-
-                </div>
-
-                <p>
-                    Sou estudante e estou aprendendo desenvolvimento
-                    de sites utilizando <strong>HTML e CSS.</strong>
-                    Tenho muita dedicação, sou curiosa e amo transformar
-                    ideias em projetos reais.
-                </p>
-
-                <p>
-                    Estou em constante aprendizado e buscando sempre
-                    evoluir, aprender novas tecnologias e melhorar minhas
-                    habilidades.
-                </p>
-
-            </div>
-
-
-            <div class="about-items">
-
-                <div class="about-item">
-
-                    <div class="item-icon">
-                        🎯
-                    </div>
-
+                <div class="section-heading">
+                    <span>01</span>
                     <div>
-                        <h3>Foco</h3>
-                        <p>
-                            Me tornar uma desenvolvedora completa.
-                        </p>
+                        <p>CONHEÇA UM POUCO</p>
+                        <h2>Sobre mim</h2>
                     </div>
-
                 </div>
 
 
-                <div class="about-item">
+                <div class="about-grid">
 
-                    <div class="item-icon">
-                        💜
-                    </div>
+                    <div class="about-main card">
 
-                    <div>
-                        <h3>Paixão</h3>
+                        <div class="icon-box">✦</div>
+
+                        <h3>
+                            Criando hoje a profissional
+                            que quero ser amanhã.
+                        </h3>
+
                         <p>
-                            Criar, aprender e superar desafios.
+                            Sou estudante de Desenvolvimento Web e estou
+                            constantemente buscando aprender, praticar e
+                            evoluir minhas habilidades.
                         </p>
-                    </div>
 
-                </div>
-
-
-                <div class="about-item">
-
-                    <div class="item-icon">
-                        📈
-                    </div>
-
-                    <div>
-                        <h3>Objetivo</h3>
                         <p>
-                            Trabalhar com o que amo e impactar pessoas.
+                            Gosto de transformar ideias em projetos reais,
+                            cuidando tanto da funcionalidade quanto da
+                            experiência visual.
                         </p>
+
+                    </div>
+
+
+                    <div class="about-side">
+
+                        <div class="mini-card">
+                            <span>🎯</span>
+                            <div>
+                                <strong>Foco</strong>
+                                <p>Me tornar uma desenvolvedora completa.</p>
+                            </div>
+                        </div>
+
+                        <div class="mini-card">
+                            <span>💜</span>
+                            <div>
+                                <strong>Paixão</strong>
+                                <p>Criar, aprender e superar desafios.</p>
+                            </div>
+                        </div>
+
+                        <div class="mini-card">
+                            <span>📈</span>
+                            <div>
+                                <strong>Objetivo</strong>
+                                <p>Trabalhar com o que amo e gerar impacto.</p>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
@@ -210,110 +192,212 @@
         </section>
 
 
-        <!-- INFORMAÇÕES -->
-        <section class="cards-section" id="habilidades">
+        <!-- HABILIDADES -->
+        <section class="section skills-section" id="habilidades">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span>02</span>
+                    <div>
+                        <p>O QUE ESTOU APRENDENDO</p>
+                        <h2>Habilidades</h2>
+                    </div>
+                </div>
 
 
-            <!-- DADOS PESSOAIS -->
-            <div class="info-card">
+                <div class="skills-grid">
 
-                <div class="card-title">
+                    <div class="skill-card">
+                        <div class="skill-top">
+                            <span class="skill-icon html">01</span>
+                            <span>HTML5</span>
+                        </div>
 
-                    <div class="card-icon">
-                        👤
+                        <p>
+                            Estruturação de páginas modernas,
+                            semânticas e organizadas.
+                        </p>
+
+                        <div class="progress">
+                            <span style="width: 88%;"></span>
+                        </div>
+
+                        <small>Conhecimento em desenvolvimento</small>
                     </div>
 
-                    <h2>Dados Pessoais</h2>
 
-                </div>
+                    <div class="skill-card">
+                        <div class="skill-top">
+                            <span class="skill-icon css">02</span>
+                            <span>CSS3</span>
+                        </div>
 
+                        <p>
+                            Criação de layouts responsivos,
+                            modernos e personalizados.
+                        </p>
 
-                <div class="info-row">
+                        <div class="progress">
+                            <span style="width: 82%;"></span>
+                        </div>
 
-                    <span>Nome:</span>
-                    <strong>Ana Julia</strong>
-
-                </div>
-
-
-                <div class="info-row">
-
-                    <span>Cidade:</span>
-                    <strong>Pontal do Paraná - PR</strong>
-
-                </div>
-
-
-                <div class="info-row">
-
-                    <span>Idade:</span>
-                    <strong>17 anos</strong>
-
-                </div>
+                        <small>Conhecimento em desenvolvimento</small>
+                    </div>
 
 
-                <div class="info-row">
+                    <div class="skill-card">
+                        <div class="skill-top">
+                            <span class="skill-icon js">03</span>
+                            <span>JavaScript</span>
+                        </div>
 
-                    <span>E-mail:</span>
-                    <strong>seuemail@email.com</strong>
+                        <p>
+                            Aprendendo lógica e interação
+                            para tornar sites mais dinâmicos.
+                        </p>
 
-                </div>
+                        <div class="progress">
+                            <span style="width: 45%;"></span>
+                        </div>
 
-
-                <div class="info-row">
-
-                    <span>Disponibilidade:</span>
-                    <strong>Período Integral</strong>
+                        <small>Em constante aprendizado</small>
+                    </div>
 
                 </div>
 
             </div>
 
+        </section>
 
-            <!-- QUALIFICAÇÕES -->
-            <div class="info-card qualification" id="projetos">
 
-                <div class="card-title">
+        <!-- PROJETOS -->
+        <section class="section" id="projetos">
 
-                    <div class="card-icon">
-                        💼
+            <div class="container">
+
+                <div class="section-heading">
+                    <span>03</span>
+                    <div>
+                        <p>MEU TRABALHO</p>
+                        <h2>Projetos</h2>
                     </div>
-
-                    <h2>Qualificação Profissional</h2>
-
                 </div>
 
 
-                <ul class="skills-list">
+                <div class="projects-grid">
 
-                    <li>
-                        Desenvolvimento de páginas em HTML.
-                    </li>
+                    <article class="project-card featured">
 
-                    <li>
-                        Estilização de páginas com CSS.
-                    </li>
+                        <div class="project-number">01</div>
 
-                    <li>
-                        Conhecimentos básicos de programação.
-                    </li>
+                        <div class="project-content">
 
-                    <li>
-                        Vontade de aprender e evoluir sempre.
-                    </li>
+                            <span class="project-label">
+                                PROJETO EM DESTAQUE
+                            </span>
 
-                    <li>
-                        Organização e dedicação aos estudos.
-                    </li>
+                            <h3>Meu Portfólio</h3>
 
-                    <li>
-                        Criatividade para resolver problemas.
-                    </li>
+                            <p>
+                                Meu primeiro portfólio profissional,
+                                desenvolvido para apresentar minha
+                                trajetória, habilidades e projetos
+                                no desenvolvimento web.
+                            </p>
 
-                </ul>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Responsivo</span>
+                            </div>
 
-                <div class="code-decoration">
-                    &lt;/&gt;
+                        </div>
+
+                        <div class="project-arrow">↗</div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-number">02</div>
+
+                        <div class="project-content">
+
+                            <span class="project-label">
+                                EM DESENVOLVIMENTO
+                            </span>
+
+                            <h3>Próximo projeto</h3>
+
+                            <p>
+                                Um novo projeto está sendo desenvolvido
+                                para colocar meus conhecimentos em prática
+                                e continuar evoluindo.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                        </div>
+
+                        <div class="project-arrow">↗</div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DADOS -->
+        <section class="section">
+
+            <div class="container">
+
+                <div class="profile-card">
+
+                    <div class="profile-title">
+                        <span>04</span>
+                        <div>
+                            <p>INFORMAÇÕES</p>
+                            <h2>Perfil profissional</h2>
+                        </div>
+                    </div>
+
+
+                    <div class="profile-grid">
+
+                        <div>
+                            <small>Nome</small>
+                            <strong>Ana Julia</strong>
+                        </div>
+
+                        <div>
+                            <small>Localização</small>
+                            <strong>Pontal do Paraná - PR</strong>
+                        </div>
+
+                        <div>
+                            <small>Área</small>
+                            <strong>Desenvolvimento Web</strong>
+                        </div>
+
+                        <div>
+                            <small>E-mail</small>
+                            <strong>
+                                Ana2009juliamendes@gmal.com
+                            </strong>
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
@@ -322,51 +406,48 @@
 
 
         <!-- CONTATO -->
-        <section class="contact" id="contato">
+        <section class="section contact-section" id="contato">
 
-            <div class="contact-text">
+            <div class="container">
 
-                <div class="contact-title">
+                <div class="contact-card">
 
-                    <span>➤</span>
+                    <div class="contact-text">
 
-                    <h2>Vamos conversar?</h2>
+                        <span class="contact-label">
+                            VAMOS CONVERSAR?
+                        </span>
+
+                        <h2>
+                            Tem uma ideia?
+                            <br>
+                            <span>Vamos criar juntos.</span>
+                        </h2>
+
+                        <p>
+                            Estou aberta a novas oportunidades,
+                            projetos e experiências que possam
+                            contribuir para minha evolução.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="mailto:Ana2009juliamendes@gmal.com"
+                        class="contact-email"
+                    >
+                        <span>✉</span>
+                        <div>
+                            <small>ENTRE EM CONTATO</small>
+                            <strong>
+                                Ana2009juliamendes@gmal.com
+                            </strong>
+                        </div>
+                        <b>↗</b>
+                    </a>
 
                 </div>
-
-                <p>
-                    Estou aberta a novas oportunidades,
-                    projetos e colaborações.
-                    Será um prazer conversar com você!
-                </p>
-
-            </div>
-
-
-            <div class="socials">
-
-                <a href="#" class="social">
-                    <span>◉</span>
-                    <small>GitHub</small>
-                </a>
-
-
-                <a href="#" class="social">
-                    <span>in</span>
-                    <small>LinkedIn</small>
-                </a>
-
-
-                <a href="#" class="social">
-                    <span>◎</span>
-                    <small>Instagram</small>
-                </a>
-
-
-                <a href="mailto:seuemail@email.com" class="social">
-                    <span>✉</span>
-                    <small>E-mail</small>
-                </a>
 
             </div>
 
@@ -375,17 +456,30 @@
     </main>
 
 
-    <!-- RODAPÉ -->
+    <!-- FOOTER -->
     <footer>
 
-        <p>
-            💜 Feito com dedicação por Ana Julia.
-            © 2026
-        </p>
+        <div class="container footer-content">
+
+            <div>
+                <strong>Ana Julia.</strong>
+                <p>Desenvolvedora Web em formação.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </div>
+
+            <p class="copyright">
+                © 2026 Ana Julia. Feito com dedicação.
+            </p>
+
+        </div>
 
     </footer>
 
-
 </body>
-
 </html>
