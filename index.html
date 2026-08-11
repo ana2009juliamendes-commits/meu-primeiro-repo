@@ -3,43 +3,273 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Ana Julia</title>
+
+    <title>Ana Júlia | Portfólio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="curriculo">
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <a href="#inicio" class="logo">AJ<span>.</span></a>
 
-        <h1>Meu Portfólio</h1>
+        <nav class="nav">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
 
-        <p class="descricao">
-            <strong>Olá! Meu nome é Ana Julia.</strong>
-        </p>
 
-        <img src="ee482ead-4602-4b2a-9e00-32a51fa433e0.jpeg" alt="Foto de perfil">
+    <!-- INÍCIO -->
+    <main>
 
-        <h2>Sobre mim</h2>
+        <section class="hero" id="inicio">
+
+            <div class="hero-text">
+
+                <p class="small-title">OLÁ, EU SOU</p>
+
+                <h1>
+                    Ana Júlia
+                    <span>Julia Mendes</span>
+                </h1>
+
+                <p class="description">
+                    Estudante apaixonada por tecnologia, criatividade
+                    e desenvolvimento de páginas web.
+                </p>
+
+                <div class="buttons">
+                    <a href="#sobre" class="btn primary">
+                        Conheça meu trabalho
+                    </a>
+
+                    <a href="#contato" class="btn secondary">
+                        Fale comigo
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <div class="image-glow"></div>
+
+                <div class="image-card">
+                    <img
+                        src="ee482ead-4602-4b2a-9e00-32a51fa433e0.jpeg"
+                        alt="Foto de Ana Júlia"
+                    >
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE -->
+        <section class="section" id="sobre">
+
+            <div class="section-title">
+                <p>CONHEÇA UM POUCO</p>
+                <h2>Sobre <span>mim</span></h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-text">
+                    <h3>Transformando ideias em páginas.</h3>
+
+                    <p>
+                        Sou estudante e estou aprendendo desenvolvimento
+                        de sites utilizando HTML e CSS.
+                    </p>
+
+                    <p>
+                        Gosto de aprender coisas novas, experimentar
+                        diferentes estilos e transformar ideias em
+                        projetos visuais bonitos e funcionais.
+                    </p>
+
+                    <p>
+                        Este portfólio representa um pouco do que estou
+                        aprendendo e da minha evolução na área de tecnologia.
+                    </p>
+                </div>
+
+
+                <div class="info-card">
+
+                    <div class="info-item">
+                        <span>Nome</span>
+                        <strong>Ana Júlia</strong>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Cidade</span>
+                        <strong>Pontal do Paraná - PR</strong>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Área</span>
+                        <strong>Desenvolvimento Web</strong>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Foco</span>
+                        <strong>HTML & CSS</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HABILIDADES -->
+        <section class="section skills-section" id="habilidades">
+
+            <div class="section-title center">
+                <p>O QUE ESTOU APRENDENDO</p>
+                <h2>Minhas <span>habilidades</span></h2>
+            </div>
+
+
+            <div class="skills">
+
+                <div class="skill-card">
+                    <div class="skill-icon">01</div>
+
+                    <h3>HTML</h3>
+
+                    <p>
+                        Estruturação de páginas e criação
+                        de conteúdos para a web.
+                    </p>
+
+                    <div class="progress">
+                        <span style="width: 85%;"></span>
+                    </div>
+                </div>
+
+
+                <div class="skill-card">
+                    <div class="skill-icon">02</div>
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        Estilização, cores, layouts,
+                        responsividade e efeitos visuais.
+                    </p>
+
+                    <div class="progress">
+                        <span style="width: 75%;"></span>
+                    </div>
+                </div>
+
+
+                <div class="skill-card">
+                    <div class="skill-icon">03</div>
+
+                    <h3>Design</h3>
+
+                    <p>
+                        Criação de interfaces bonitas,
+                        modernas e agradáveis.
+                    </p>
+
+                    <div class="progress">
+                        <span style="width: 70%;"></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DESTAQUE -->
+        <section class="highlight">
+
+            <div>
+                <p class="small-title">MEU OBJETIVO</p>
+
+                <h2>
+                    Criar experiências
+                    <span>que impressionam.</span>
+                </h2>
+
+                <p>
+                    Quero continuar aprendendo e evoluindo
+                    para transformar criatividade em projetos
+                    cada vez melhores.
+                </p>
+            </div>
+
+            <div class="big-number">
+                01
+            </div>
+
+        </section>
+
+
+        <!-- CONTATO -->
+        <section class="section contact" id="contato">
+
+            <div class="section-title center">
+                <p>VAMOS CONVERSAR?</p>
+
+                <h2>
+                    Entre em <span>contato</span>
+                </h2>
+            </div>
+
+            <div class="contact-box">
+
+                <div>
+                    <p>
+                        Gostou do meu portfólio?
+                        Estou sempre aberta a aprender,
+                        criar e conhecer novos projetos.
+                    </p>
+                </div>
+
+                <a href="mailto:seuemail@email.com" class="contact-button">
+                    Enviar mensagem
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <div class="footer-logo">
+            AJ<span>.</span>
+        </div>
 
         <p>
-            Sou estudante e estou aprendendo desenvolvimento de sites
-            utilizando HTML e CSS.
+            © 2026 Ana Júlia — Portfólio
         </p>
 
-        <h2>Dados Pessoais</h2>
+        <p>
+            Feito com HTML & CSS
+        </p>
 
-        <p><strong>Nome:</strong> Ana Julia</p>
-        <p><strong>Cidade:</strong> Pontal do Paraná - PR</p>
+    </footer>
 
-        <h2>Qualificação Profissional</h2>
-
-        <ul>
-            <li>Desenvolvimento de páginas em HTML.</li>
-            <li>Estilização de páginas com CSS.</li>
-            <li>Conhecimentos básicos de programação.</li>
-        </ul>
-
-    </div>
 
 </body>
 </html>
